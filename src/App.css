@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.APP_show {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.overFlowTable {
+  height: 500px;
+  width: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.gene {
+  font-size: large;
+  font-weight: 500;
+  margin-left: 20px;
+}
+.gene_Sub {
+  font-size: small;
+  font-weight: 500;
+  margin-left: 20px;
+}
+table.MuiTable-root.css-quj9j6-MuiTable-root {
+  border: 1px solid;
+  margin-top: 20px;
+}

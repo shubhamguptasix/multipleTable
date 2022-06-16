@@ -1,0 +1,15 @@
+ [ 
+
+  {
+    "col": "Drug"
+  },
+  {
+    "col": "Trade Name"
+  },
+  {
+    "col": "Target"
+  },
+  {
+    "col": "Current Status"
+  }
+]
